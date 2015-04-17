@@ -1,4 +1,5 @@
 https://travis-ci.org/danawhite/danawhite.github.io.svg?branch=master
+[![Build Status](https://travis-ci.org/simkimsia/UtilityBehaviors.png)](https://travis-ci.org/simkimsia/UtilityBehaviors)
 
 # Bright Ideas website
 
