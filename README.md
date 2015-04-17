@@ -1,3 +1,5 @@
+https://travis-ci.org/danawhite/danawhite.github.io.svg?branch=master
+
 # Bright Ideas website
 
 The repository for http://brightideas.nyc
