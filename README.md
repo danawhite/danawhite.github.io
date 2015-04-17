@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/danawhite/danawhite.github.io.svg)](ttps://travis-ci.org/danawhite/danawhite.github.io?branch=master)
+[![Build Status](https://travis-ci.org/danawhite/danawhite.github.io.svg)](https://travis-ci.org/danawhite/danawhite.github.io?branch=master)
 
 # Bright Ideas website
 
