@@ -9,6 +9,8 @@ angular.module('myApp.view1', ['ngRoute'])
   });
 }])
 
-.controller('View1Ctrl', [function() {
-
+.controller('View1Ctrl', [function($window) {
+    console.log(2147483647 >>0);
+    console.log(2147483648 >>0);
+    console.log(2147483649 >>0);
 }]);
