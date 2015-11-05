@@ -30,13 +30,14 @@
 }
 
 .bi-logo{
-  /*background: url('resources/assets/images/bright-ideas-logo.jpg') no-repeat center center;*/
+  background: url('resources/assets/images/bright-ideas-logo.jpg') no-repeat center center;
   width: 100%;
-  height: 100%;
-  margin: 0 auto;
+  height: 100vh;
+  /*margin: 0 auto;*/
+  /*background-color: cornsilk;*/
 }
 
 .bi-image {
   margin-top: 10%;
-  margin-left: 25%;
+  m-srgin-left: 25%;
 }
