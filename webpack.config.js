@@ -1,10 +1,12 @@
 var webpack = require('webpack');
 var path = require('path');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
+const APP_PATH = path.resolve(__dirname, 'app')
 const BUILD_PATH = path.resolve(__dirname, 'build');
 
 module.exports = {
-    entry: __dirname + '/app/app.js',
+    entry: path.resolve(APP_PATH, 'app.js'),
     output: {
         path: BUILD_PATH,
         filename: 'bundle.js'
@@ -16,7 +18,10 @@ module.exports = {
             {test: /\.html$/, loader: 'raw', include: 'app'}
         ]
     },
-    plugins: {
-
-    }
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: 'Bright Ideas',
+            template: 'index.html'
+        })
+    ]
 };
