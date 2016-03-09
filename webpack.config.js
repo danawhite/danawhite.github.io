@@ -2,8 +2,8 @@ var webpack = require('webpack');
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const APP_PATH = path.resolve(__dirname, 'app')
-const BUILD_PATH = path.resolve(__dirname, 'build');
+const APP_PATH = path.resolve(__dirname, 'app');
+const BUILD_PATH = path.resolve(__dirname, 'public');
 
 module.exports = {
     entry: path.resolve(APP_PATH, 'app.js'),
