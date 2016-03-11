@@ -15,6 +15,8 @@ const BrightIdeasApp = () => {
 
 const render = () => {
     return (
-        <BrightIdeasApp/>, document.getElementById('root');
+        <BrightIdeasApp/>, document.getElementById('root')
     )
-}
+};
+
+render();

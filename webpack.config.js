@@ -13,9 +13,21 @@ module.exports = {
     },
     module: {
         loaders: [
-            {test: /\.css$/, loader: 'style!css', include: 'app'},
-            {test: /\.js$/, loader: 'babel', include: 'app'},
-            {test: /\.html$/, loader: 'raw', include: 'app'}
+            {
+                test: /\.css$/,
+                loader: 'style!css',
+                include: APP_PATH
+            },
+            {
+                test: /\.js$/,
+                loader: 'babel',
+                include: APP_PATH
+            },
+            {
+                test: /\.html$/,
+                loader: 'raw',
+                include: APP_PATH
+            }
         ]
     },
     plugins: [
