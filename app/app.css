@@ -41,3 +41,7 @@
   margin-top: 10%;
   m-srgin-left: 25%;
 }
+
+.strike {
+  text-decoration: line-through;
+}
